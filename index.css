@@ -267,4 +267,11 @@
 }
 
 /* set bg color */
-* {background-color: #fcb7b3}
+* {
+  background-color: #fcb7b3
+}
+
+/*center main title*/
+.title {
+  text-align: center;
+}

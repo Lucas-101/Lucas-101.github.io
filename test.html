@@ -1,6 +1,4 @@
-
 <!doctype html>
-<html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
@@ -21,27 +19,17 @@
 <body>
   <nav class="topnav">
     <a href="index.html">Home</a>
-    <a class="active" href="projects.html">Projects</a>
-    <button onclick="invert()"> Random </button>
-
+    <a href="projects.html">Projects</a>
+    <button onclick="var invert = true"> Random </button>
+    <a class="active" href="test.html">Testing</a>
   </nav>
-  <div class="content-main">
-    <h1 class="title">Projects</h1>
-    <div class="project">
-      <h3> <a href="https://github.com/Vynx-Dev/vynos-kernel"> VynOS </a></h3>
-      <p> VynOS is a general purpose operating system in very early devlopment. <p>
-      <p> Status: Active</p>
-    </div>
-    <div class="project">
-      <h3> <a href="https://github.com/Lucas-101/kilo"> Kilo </a> </h3>
-      <p> A text editor intended to improve on Antirez's kilo. </p>
-      <p> Status: Inactive</p>
-    </div>
+  <div class="main-content">
+    <canvas id="glCanvas" width="640" height="480"></canvas>
   </div>
+
   <script src="modernizr-3.11.8.min.js "></script>
   <script src="scripts.js"></script>
-
-
+  <script src="test.js"></script>
 </body>
 
 </html>
